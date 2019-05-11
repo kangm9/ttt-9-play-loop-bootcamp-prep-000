@@ -37,9 +37,9 @@ end
 
 # Define your play method below
 def play(board)
-  input = 1
+  index = 0
   turn(board)
-  until input == 9 
-  input += 1
+  until index == 8 
+  index += 1
 end
 end
