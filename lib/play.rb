@@ -38,7 +38,8 @@ end
 # Define your play method below
 def play(board)
   input = 1
-  loop do turn(board)
-  until index == 8
+  turn(board)
+  until input == 9 
+  input += 1
 end
 end
