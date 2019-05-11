@@ -39,7 +39,7 @@ end
 def play(board)
   index = 0
   turn(board)
-  until index == 8 
+  until index == 9 
   index += 1
 end
 end
